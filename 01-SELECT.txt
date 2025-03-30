@@ -1,0 +1,12 @@
+-- 1 SELECT * from USERS WHERE name="David Ben-gurion";
+-- 2 SELECT * from USERS WHERE id>3;
+
+-- 3 A SELECT * from USERS WHERE id=2 OR id=3 OR id=4;
+-- 3 B SELECT * from USERS WHERE id BETWEEN 2 AND 4;
+
+-- 4 SELECT * from USERS WHERE name="Albert Einstein";
+-- 5 SELECT * from USERS WHERE name="ALBERT EINSTEIN";
+
+-- 6 SELECT * from USERS WHERE name LIKE "%kenn%";
+-- 7 SELECT * from USERS ORDER BY name DESC;
+-- 8 SELECT * from USERS WHERE id%2=0;
